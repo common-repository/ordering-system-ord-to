@@ -1,0 +1,156 @@
+.ordto-but {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.ordto-but:focus {
+    outline: none !important;
+}
+
+.ordto-save-but, .ordto-add-but {
+    background-color: #1ab394;
+    border-color: #1ab394;
+    color: #FFFFFF;
+}
+
+.ordto-reset-but {
+    color: #8a8a8a;
+}
+
+.ordto-save-but:hover {
+    background-color: #199d83;
+}
+
+.ordto-add-but:hover {
+    background-color: #199d83;
+}
+
+.ordto-banner {
+    padding: 15px; margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.ordto-info-banner {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.ordto-attention-banner {
+    color: #765c3c;
+    background-color: #f0e7d8;
+    border-color: #e9dfc6;
+}
+
+.ordto-order-info{
+    border: none;
+    font-size: 17px;
+    vertical-align: text-top;
+}
+
+.ordto-client-info{
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+    background-color: #ffffff;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+}
+
+.ordto-table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    background: white;
+    max-width: 70%;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+
+.ordto-ords_info {
+    font-size: 13px;
+    background: white;
+    max-width: 70%;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.ordto-order_number {
+    border: 0;
+    background: white;
+    color: #039;
+}
+
+.ordto-input_prod {
+    width: 50%;
+    border-color: #0A246A;
+}
+
+.ordto-come_back_to {
+    border: none;
+    background-color: rgb(241, 241, 241);
+    font-size: 16px;
+    color: #253980;
+}
+
+.ordto-come_back_to:hover {
+    color: #3b0202;
+    text-decoration: underline;
+}
+
+.ordto-come_back_to:focus {
+    outline: none !important;
+}
+
+.ordto-h2 {
+    font-size: 20px;
+    color: #253980;
+}
+
+.ordto-h3 {
+    font-size: 16px;
+    color: #253980;
+}
+
+.ordto-th {
+    font-weight: normal;
+    color: #039;
+    border-bottom: 2px solid #6678b1;
+    padding: 10px 8px;
+}
+
+.ordto-td {
+    color: #669;
+    padding: 9px 8px;
+    transition: .3s linear;
+}
+
+.ordto-tr:hover td {
+    color: #00A8EF;
+}
+
+.ordto-order_number:hover {
+    color: #3b0202;
+    text-decoration: underline;
+}
+
+.ordto-order_number:focus {
+    outline: none !important;
+}
